@@ -3,10 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="GEO: GEO: Generative Engine Optimization">
+        content="GEO: Generative Engine Optimization">
   <meta name="keywords" content="rag, nlp, LLMs, search engine, seo, geo">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>GEO: GEO: Generative Engine Optimization</title>
+  
+  <title>GEO: Generative Engine Optimization</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script> -->
@@ -34,7 +35,7 @@
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
-  <link rel="icon" href="./static/images/favicon.svg">
+  <link rel="icon" href="./static/images/favicon.png">
   <link rel="stylesheet" href="./static/css/prism.css"/>
   <link rel="stylesheet" href="plugins/line-highlight/prism-line-highlight.css" data-noprefix="">
   <link rel="stylesheet" href="plugins/diff-highlight/prism-diff-highlight.css" data-noprefix="">
@@ -110,7 +111,7 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title"><br>GEO:<br> Generative Engine Optimization</h1>
+          <h1 class="title is-1 publication-title"><br><img src="static/images/favicon.png" alt="GEO: Generative Engine Optimization" width="40" height="40">      GEO:<br> Generative Engine Optimization</h1>
           <!-- <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="https://madaan.github.io/">Aman Madaan</a><sup>2</sup>,</span>
@@ -136,10 +137,10 @@
             <span class="author-block"> <a href="">Ashwin Kalyan</a><sup>†</sup>, </span>
             <span class="author-block"> <a href="">Karthik R Narasimhan</a><sup>♠</sup>, </span>
             <span class="author-block"> <a href="">Ameet Deshpande</a><sup>♠</sup>, </span>
+            <br>
             <span class="author-block"><sup>♠</sup>Princeton University</span>
             <span class="author-block"><sup>†</sup>AI2</span>
             <span class="author-block"><sup>‡</sup>Georgia Tech</span>
-            <br>
             <span class="author-block"><sup>♢</sup>IIT Delhi</span>
           </div>
             <!--  <div class="is-size-5 publication-authors"> <a href="mailto:automix-models@googlegroups.com">automix-models@googlegroups.com</a> </div> -->
@@ -179,14 +180,17 @@
                 </a>
               </span> -->
               <!-- Code Link. -->
+              
+              <!-- Icon for Leaderboard -->
               <span class="link-block">
-                <a href="https://github.com/Pranjal2041/GEO/colabs" class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                        <svg class="svg-inline--fa fa-terminal fa-w-20" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="terminal" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M257.981 272.971L63.638 467.314c-9.373 9.373-24.569 9.373-33.941 0L7.029 444.647c-9.357-9.357-9.375-24.522-.04-33.901L161.011 256 6.99 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L257.981 239.03c9.373 9.372 9.373 24.568 0 33.941zM640 456v-32c0-13.255-10.745-24-24-24H312c-13.255 0-24 10.745-24 24v32c0 13.255 10.745 24 24 24h304c13.255 0 24-10.745 24-24z"></path></svg><!-- <i class="fas fa-terminal"></i> Font Awesome fontawesome.com -->
-                    </span>
-                    <span>Colab</span>
+                <a href="https://github.com/Pranjal2041/GEO/GEO-BENCH"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-trophy"></i>
+                  </span>
+                  <span>Leaderboard</span>
                 </a>
-            </span>
+              <!-- </span> -->
 
               <span class="link-block">
                 <a href="https://github.com/Pranjal2041/GEO"
@@ -242,8 +246,7 @@
 </section> -->
 
 <h2 class="subtitle has-text-centered">
-  <span class="dnerf">TLDR:</span> AutoMix optimizes cost and accuracy by 
-  routing queries between small and large language models,<br> through self and meta-verification.
+  <span class="dnerf">TLDR:</span> <b>GEO</b> introduces optimization techniques to boost website visibility in generative engine responses.
 </h2>
 
 <section class="hero teaser">
@@ -256,7 +259,7 @@
           <!-- </video>  -->
              
           <figure class="image">
-              <img id="animatedGif" src="https://github.com/automix-llm/automix/assets/1304693/3043c5b1-08b0-42dd-9180-ca13f45a83eb">
+              <img id="animatedGif" src="static/images/geo_teaser.png">
             </figure>
 
 
@@ -331,7 +334,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified is-size-4">
           <p>
-            Large language models (LLMs) are now available in various sizes and configurations from cloud API providers. While this diversity offers a broad spectrum of choices, effectively leveraging the options to optimize computational cost and performance remains challenging. In this work, we present <b>AutoMix</b>, an approach that strategically routes queries to larger LMs, based on the approximate correctness of outputs from a smaller LM. Central to AutoMix is a few-shot <i>self-verification</i> mechanism, which estimates the reliability of its own outputs without requiring training. Given that verifications can be noisy, we employ a <i>meta verifier</i> in AutoMix to refine the accuracy of these assessments. Our experiments using LLAMA2-13/70B, on five context-grounded reasoning datasets demonstrate that AutoMix surpasses established baselines, improving the incremental benefit per cost by up to <i>89%</i>.
+            The advent of large language models (LLMs) has ushered in a new paradigm of search engines that use generative models to gather and summarize information to answer user queries. This emerging technology, which we formalize under the unified framework of <b>generative engines (GEs)</b>, has the potential to generate accurate and personalized responses, and is rapidly replacing traditional search engines like Google and Bing. <i>Generative Engines</i> typically satisfy queries by synthesizing information from multiple sources and summarizing them with the help of LLMs. While this shift significantly improves user utility and generative search engine traffic, it results in a huge challenge for the third stakeholder — website and content creators. Given the black-box and fast-moving nature of generative engines, content creators have little to no control over when and how their content is displayed. With generative engines here to stay, the right tools should be provided to ensure that creator economy is not severely disadvantaged. To address this, we introduce <b>GENERATIVE ENGINE OPTIMIZATION (GEO)</b>, a novel paradigm to aid content creators in improving their visibility. In this work, we propose a suite of optimization strategies aimed at enhancing content visibility in Generative Engine responses. We introduce a benchmark: <b>GEO-BENCH</b> comprising diverse user queries across multiple domains, along with the corresponding sources required to answer these queries. Our extensive experiments reveal that the proposed <i>GEO</i> methods, which incorporate carefully developed textual enhancements, can increase source visibility by up to <i>40%</i>. We find several insights that aid content creators — for example, the inclusion of citations and pertinent statistics significantly bolsters vis- ibility. Moreover, through analysis we show the efficacy of these strategies varies across domains, underscoring the need for domain-specific optimization methods. Our work opens a new frontier in the field of information discovery systems, with profound implications for both developers of GEs and content creators.
           </p>
 
         </div>
@@ -365,13 +368,22 @@
               <div class="column is-four-fifths"> -->
                 <div class="content has-text-justified is-size-4">
                   <ul>
-                    <li>🔁 <strong>Optimized Model Mixing:</strong> AutoMix optimally combines small and large LLM APIs for cost-effective performance.</li>
+                    <!-- <li>🔁 <strong>Optimized Model Mixing:</strong> AutoMix optimally combines small and large LLM APIs for cost-effective performance.</li>
 
                       <li>💡 <strong>Innovative Meta-verifier:</strong> A secondary verifier layer improves noisy few-shot self-verification.</li>
 
                         <li>📈 <strong>Enhanced Efficiency:</strong> AutoMix improves the incremental benefit per cost by up to 89% over baselines.</li>
 
-                        <li>🔌 <strong>Ready for Deployment:</strong> Applicable out-of-the-box to black-box APIs without access to weights.</li>
+                        <li>🔌 <strong>Ready for Deployment:</strong> Applicable out-of-the-box to black-box APIs without access to weights.</li> -->
+
+                        <li> 🚀 <strong>Content Optimization for Generative Engines:</strong> GEO allows website owners to optimize content specifically for generative engines.</li>
+
+                        <li>🔎 <strong>Customized Visibility Metrics:</strong> Proposes specialized impression metrics tailored to generative engines, so that you can judge your content optimizations effectively.</li>
+
+                        <li>📊 <strong>Comprehensive Benchmark:</strong> Introduces GEO-BENCH, a diverse benchmark of 10K queries for evaluation and corresponding leaderboard for up-to date comparison with best methods.</li>
+
+                        <li>⚡️ <strong>Significant Visibility Gains:</strong> Simple GEO strategies improve visibility by up to 40% in experiments.</li>
+
                   </ul>
                 </div>
               <!-- </div>
@@ -388,37 +400,37 @@
       <div class="columns is-centered has-text-centered">
           <div class="column is-four-fifths">
               <h2 class="title is-3">Results Summary</h2>
-              <strong><span class="pal">AutoMix</span> outperforms baselines by wide margins, despite them using domain-specific training and low cost-verifier.</strong>
+              <strong><span class="pal">Coming Soon</span></strong>
               <!-- Add vertical space -->
-              <br>
-              <br>
+              <!-- <br>
+              <br> -->
               <!--row1, colored objects-->
-              <figure class="image is-64by64">
-                  <img src="static/images/main_results.png">
+              <!-- <figure class="image is-64by64">
+                  <img src="static/images/main_results.png"> -->
                   <!-- <strong>Mathematical Reasoning</strong> -->
-              </figure>
+              <!-- </figure>
               <hr>
-              <strong><span class="pal">AutoMix</span> provides a controllable and interpretable mechanism to adjust your cost and quality.</strong>
+              <strong><span class="pal">AutoMix</span> provides a controllable and interpretable mechanism to adjust your cost and quality.</strong> -->
               <!-- Add vertical space -->
-              <br>
-              <br>
+              <!-- <br>
+              <br> -->
               <!--row2, math reasoning-->
-              <figure class="image">
-                  <img src="static/images/cost_wise_performance.png">
+              <!-- <figure class="image">
+                  <img src="static/images/cost_wise_performance.png"> -->
                   <!-- <strong>Logical Reasoning</strong> -->
-              </figure>
+              <!-- </figure> -->
               
-              <hr>
-              <strong><span class="pal">AutoMix's</span> meta-verifier boosts performance even the few-shot verifier performs poorly or not well calibrated.</strong>
+              <!-- <hr>
+              <strong><span class="pal">AutoMix's</span> meta-verifier boosts performance even the few-shot verifier performs poorly or not well calibrated.</strong> -->
               <!-- Add vertical space -->
-              <br>
-              <br>
+              <!-- <br>
+              <br> -->
               <!--row3, algorithmic reasoning-->
-              <figure>
+              <!-- <figure>
                   <img src="static/images/meta_verifier_performance_better.png">
-                  <br>
+                  <br> -->
                   <!-- <strong>Other Reasoning Datasets</strong> -->
-              </figure>
+              <!-- </figure> -->
           </div>
       </div>
   </div>
@@ -433,22 +445,39 @@
   </span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span>    const foo = bar.baz([1, 2, 3]) + 1;
   </span><span class="token unchanged"><span class="token prefix unchanged"> </span>    console.log(`foo: ${foo}`);</span></code></pre> -->
 
-
+  <!-- 1. MS Macro, 2. ORCAS-1, and 3. Natural Questions: Kwiatkowski et al. (2019); Alexander
+  et al. (2022); Craswell et al. (2021) These datasets contain real anonymized user queries from Bing
+  and Google Search Engines. These three collectively represent the common set of datasets that
+  are used in search engine related research. However, Generative Engines will be posed with far
+  more difficult and specific queries with intent of synthesizing answer from multiple sources instead
+  of searching for them. To this end, we re-purpose several other publicly available datasets: 4.
+  AllSouls: This dataset contains essay questions from ”All Souls College, Oxford University”. The
+  queries in this dataset require Generative Engines to perform appropriate reasoning to aggregate
+  information from multiple sources. 5. LIMA: contains challenging questions requiring Generative
+  Engines to not only aggregate information but also perform suitable reasoning to answer the question
+  (eg: writing short poem, python code.). 6. Davinci-Debtate Liu et al. (2023a) contains debate
+  questions generated for testing Generative Engines. 7. Perplexity.ai Discover: These queries are
+  sourced from Perplexity.ai’s Discover section, which is an updated list of trending queries on the
+  platform. 8. ELI-5: This dataset contains questions from the ELI5 subreddit, where users ask
+  complex questions and expect answers in simple, layman terms. 9. GPT-4 Generated Queries: -->
 <section class="section" id="library">
   <div class="container is-max-desktop">
     <div class="box has-background-light">
-      <h2 class="title is-3">Using AutoMix in your code</h2>
-      Using AutoMix in your code takes only 3-4 line changes.
-
-
+      <h2 class="title is-3">GEO-BENCH</h2>
+      A diverse benchmark of GEO related queries from different sources!
       <!-- # Create two nested boxes. -->
       <div class="box has-background-light">
         <!-- <div class="box has-background-light"> -->
           <div class="content has-text-justified is-size-6">
             <p>
-              <strong>1. Installing</strong>
+              <strong>1. GEO-BENCH</strong>
             </p>
-            <pre class=" language-shell" data-src="static/js/prism-line-highlight.js"><code class=" language-shell language-diff">pip install automix-llm</code></pre>
+            <!-- Create a list -->
+            <ul>
+              <li> <strong>10K Queries:</strong> 10K queries from different domains, difficulty, cateogry. Train Set of 8K queries, with val and test set of 1k queries each</li>
+              <li> <strong>Datasets:</strong> Benchmark composed of datasets from 1. MS Macro, 2. ORCAS-1, 3. Natural Questions, 4. AllSouls, 5. LIMA, 6. Davinci-Debtate, 7. Perplexity.ai Discover, 8. ELI-5, 9. GPT-4 Generated Queries</li>
+              <li> <strong>Sources & Tags:</strong> Every query is provided with 5 cleaned relevant sources from Google Search Engine. Queries are tagged from 50 diverse tags to allow for targeted optimization and analysis.</li>
+            </ul>
           </div>
       <!-- </div> -->
     </div>
@@ -458,28 +487,15 @@
           <!-- <div class="box has-background-light"> -->
             <div class="content has-text-justified is-size-6">
               <p>
-                <strong>2. Training and Inference</strong>
+                <strong>2. GEO-BENCH Leaderboard</strong>
               </p>
-              <pre class=" language-python" data-src="static/js/prism-line-highlight.js"><code class=" language-python">from automix import Automix, POMDP
+            <ul>
+              <li> <strong>Public Leaderboard:</strong>We present a leaderboard for GEO-BENCH, which will be updated regularly with the latest results.
+              <li> <strong>Different Domains:</strong> Your method targets particular domain? Leaderboard subsets for different domains, datasets and tags.</li>
+              <li> <strong>Submit your methods:</strong> Submit your methods to the leaderboard and compete with the best methods.</li>
 
-mixer = Automix(POMDP(*args, **kwargs))
-mixer.train(train_data)
-restuls = mixer.evaluate(test_data)</code></pre>
             </div>
           </div>
-
-        <!-- </div> -->
-        <div class="box has-background-light">
-          <!-- <div class="box has-background-light"> -->
-            <div class="content has-text-justified is-size-6">
-              <p>
-                <strong>3. High Customizability</strong>
-              </p>
-              Check out our <a href="https://github.com/automix-llm/automix">Github repo</a> for more details!
-            </div>
-        <!-- </div> -->
-      
-      </div>
   </div>
 </section>
 
