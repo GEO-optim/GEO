@@ -111,7 +111,7 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title"><br><img src="static/images/favicon.png" alt="GEO: Generative Engine Optimization" width="40" height="40">      GEO:<br> Generative Engine Optimization</h1>
+          <h1 class="title is-1 publication-title"><br><img src="static/images/favicon.png" alt="GEO: Generative Engine Optimization" width="50" height="50">      GEO:<br> Generative Engine Optimization</h1>
           <!-- <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="https://madaan.github.io/">Aman Madaan</a><sup>2</sup>,</span>
@@ -131,15 +131,16 @@
           </div> -->
           <div class="is-size-5 publication-authors"> 
             <!-- Tanmay Rajpurohit, Ashwin Kalyan, Karthik R Narasimhan, Ameet Deshpande -->
-            <span class="author-block"> <a href="https://pranjal2041.github.io">Pranjal Aggarwal</a><sup>♢</sup><sup>*</sup>, </span> 
+            <span class="author-block"> <a href="https://pranjal2041.github.io">Pranjal Aggarwal</a><sup>♢</sup><sup></sup>, </span> 
             <span class="author-block"> <a href="https://sites.google.com/view/ankitsanand/home">Vishvak Murahari</a><sup>♠</sup>, </span> 
             <span class="author-block"> <a href="">Tanmay Rajpurohit</a><sup>‡</sup>, </span>
-            <span class="author-block"> <a href="">Ashwin Kalyan</a><sup>†</sup>, </span>
-            <span class="author-block"> <a href="">Karthik R Narasimhan</a><sup>♠</sup>, </span>
-            <span class="author-block"> <a href="">Ameet Deshpande</a><sup>♠</sup>, </span>
+            <span class="author-block"> <a href="http://ashwinkalyan.com/">Ashwin Kalyan</a><sup>†</sup>, </span>
+            <br>
+            <span class="author-block"> <a href="https://www.cs.princeton.edu/~karthikn/">Karthik R Narasimhan</a><sup>♠</sup>, </span>
+            <span class="author-block"> <a href="https://ameet-1997.github.io/">Ameet Deshpande</a><sup>♠</sup>, </span>
             <br>
             <span class="author-block"><sup>♠</sup>Princeton University</span>
-            <span class="author-block"><sup>†</sup>AI2</span>
+            <span class="author-block"><sup>†</sup>Allen Institute of Technology</span>
             <span class="author-block"><sup>‡</sup>Georgia Tech</span>
             <span class="author-block"><sup>♢</sup>IIT Delhi</span>
           </div>
@@ -150,15 +151,7 @@
           <div class="column has-text-centered">
             <div class="publication-links">
               <!-- PDF Link. -->
-              <span class="link-block">
-                <a href="https://arxiv.org/pdf/2310.18xxx.pdf"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
+              
               <!-- <span class="link-block">
                 <a href="https://huggingface.com/Pranjal2041"
                    class="external-link button is-normal is-rounded is-dark">
@@ -182,15 +175,6 @@
               <!-- Code Link. -->
               
               <!-- Icon for Leaderboard -->
-              <span class="link-block">
-                <a href="https://github.com/Pranjal2041/GEO/GEO-BENCH"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fas fa-trophy"></i>
-                  </span>
-                  <span>Leaderboard</span>
-                </a>
-              <!-- </span> -->
 
               <span class="link-block">
                 <a href="https://github.com/Pranjal2041/GEO"
@@ -201,6 +185,40 @@
                   <span>Code</span>
                   </a>
               </span>
+
+
+              <!-- Icon for Dataset -->
+              <span class="link-block">
+                <a href="https://huggingface.co/datasets/Pranjal2041/geo-bench"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-database"></i>
+                  </span>
+                  <span>Dataset</span>
+                </a>
+
+
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2310.18xxx.pdf"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+
+              <span class="link-block">
+                <a href="https://huggingface.co/spaces/Pranjal2041/GEO-bench"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-trophy"></i>
+                  </span>
+                  <span>Leaderboard</span>
+                </a>
+              
+
+
               <!-- Dataset Link. -->
               <!-- <span class="link-block">
                 <a href="https://github.com/automix-llm/automix/tree/main/data"
@@ -334,7 +352,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified is-size-4">
           <p>
-            The advent of large language models (LLMs) has ushered in a new paradigm of search engines that use generative models to gather and summarize information to answer user queries. This emerging technology, which we formalize under the unified framework of <b>generative engines (GEs)</b>, has the potential to generate accurate and personalized responses, and is rapidly replacing traditional search engines like Google and Bing. <i>Generative Engines</i> typically satisfy queries by synthesizing information from multiple sources and summarizing them with the help of LLMs. While this shift significantly improves user utility and generative search engine traffic, it results in a huge challenge for the third stakeholder — website and content creators. Given the black-box and fast-moving nature of generative engines, content creators have little to no control over when and how their content is displayed. With generative engines here to stay, the right tools should be provided to ensure that creator economy is not severely disadvantaged. To address this, we introduce <b>GENERATIVE ENGINE OPTIMIZATION (GEO)</b>, a novel paradigm to aid content creators in improving their visibility. In this work, we propose a suite of optimization strategies aimed at enhancing content visibility in Generative Engine responses. We introduce a benchmark: <b>GEO-BENCH</b> comprising diverse user queries across multiple domains, along with the corresponding sources required to answer these queries. Our extensive experiments reveal that the proposed <i>GEO</i> methods, which incorporate carefully developed textual enhancements, can increase source visibility by up to <i>40%</i>. We find several insights that aid content creators — for example, the inclusion of citations and pertinent statistics significantly bolsters vis- ibility. Moreover, through analysis we show the efficacy of these strategies varies across domains, underscoring the need for domain-specific optimization methods. Our work opens a new frontier in the field of information discovery systems, with profound implications for both developers of GEs and content creators.
+            The advent of large language models (LLMs) has ushered in a new paradigm of search engines that use generative models to gather and summarize information to answer user queries. This emerging technology, which we formalize under the unified framework of <b>generative engines (GEs)</b>, has the potential to generate accurate and personalized responses, and is rapidly replacing traditional search engines like Google and Bing. <i>Generative Engines</i> typically satisfy queries by synthesizing information from multiple sources and summarizing them with the help of LLMs. While this shift significantly improves user utility and generative search engine traffic, it results in a huge challenge for the third stakeholder — website and content creators. Given the black-box and fast-moving nature of generative engines, content creators have little to no control over when and how their content is displayed. With generative engines here to stay, the right tools should be provided to ensure that creator economy is not severely disadvantaged. To address this, we introduce <b>GENERATIVE ENGINE OPTIMIZATION (GEO)</b>, a novel paradigm to aid content creators in improving their visibility. In this work, we propose a suite of optimization strategies aimed at enhancing content visibility in Generative Engine responses. We introduce a benchmark: <b>GEO-BENCH</b> comprising diverse user queries across multiple domains, along with the corresponding sources required to answer these queries. Our extensive experiments reveal that the proposed <i>GEO</i> methods, which incorporate carefully developed textual enhancements, can increase source visibility by up to <i>40%</i>. We find several insights that aid content creators — for example, the <i>inclusion of citations</i> and <i>pertinent statistics</i> significantly bolsters visibility. Moreover, through analysis we show the efficacy of these strategies varies across domains, underscoring the need for domain-specific optimization methods. Our work opens a new frontier in the field of information discovery systems, with profound implications for both developers of GEs and content creators.
           </p>
 
         </div>
@@ -400,37 +418,37 @@
       <div class="columns is-centered has-text-centered">
           <div class="column is-four-fifths">
               <h2 class="title is-3">Results Summary</h2>
-              <strong><span class="pal">Coming Soon</span></strong>
+              <strong><span class="pal">GEO</span> outperforms baselines and traditional SEO methods by wide margins. We evaluate on both our Generative Engine and an actual deployed GE to compare the performance.</strong>
               <!-- Add vertical space -->
-              <!-- <br>
-              <br> -->
+              <br>
+              <br>
               <!--row1, colored objects-->
-              <!-- <figure class="image is-64by64">
-                  <img src="static/images/main_results.png"> -->
+              <figure class="image is-64by64">
+                  <img src="static/images/results_main.png">
                   <!-- <strong>Mathematical Reasoning</strong> -->
-              <!-- </figure>
+              </figure>
               <hr>
-              <strong><span class="pal">AutoMix</span> provides a controllable and interpretable mechanism to adjust your cost and quality.</strong> -->
+              Our Analysis suggest a.) <strong><span class="pal">GEO</span></strong> is more helpful if targetting specific domains, b.) <strong><span class="pal">GEO</span></strong> will benefit websites lower ranked in search engine more in the future. 
               <!-- Add vertical space -->
-              <!-- <br>
-              <br> -->
+              <br>
+              <br>
               <!--row2, math reasoning-->
-              <!-- <figure class="image">
-                  <img src="static/images/cost_wise_performance.png"> -->
+              <figure class="image">
+                  <img src="static/images/results_analysis.png">
                   <!-- <strong>Logical Reasoning</strong> -->
-              <!-- </figure> -->
+              </figure>
               
-              <!-- <hr>
-              <strong><span class="pal">AutoMix's</span> meta-verifier boosts performance even the few-shot verifier performs poorly or not well calibrated.</strong> -->
+              <hr>
+              We show, that with <strong><span class="pal">GEO</span></strong> users can make minor changes, however leading to large performance gains.
               <!-- Add vertical space -->
-              <!-- <br>
-              <br> -->
+              <br>
+              <br>
               <!--row3, algorithmic reasoning-->
-              <!-- <figure>
-                  <img src="static/images/meta_verifier_performance_better.png">
-                  <br> -->
+              <figure>
+                  <img src="static/images/results_qual.png">
+                  <br>
                   <!-- <strong>Other Reasoning Datasets</strong> -->
-              <!-- </figure> -->
+              </figure>
           </div>
       </div>
   </div>
@@ -470,13 +488,13 @@
         <!-- <div class="box has-background-light"> -->
           <div class="content has-text-justified is-size-6">
             <p>
-              <strong>1. GEO-BENCH</strong>
+              <strong>1. <a href = 'https://huggingface.co/datasets/Pranjal2041/geo-bench'>GEO-BENCH</a></strong>
             </p>
             <!-- Create a list -->
             <ul>
               <li> <strong>10K Queries:</strong> 10K queries from different domains, difficulty, cateogry. Train Set of 8K queries, with val and test set of 1k queries each</li>
               <li> <strong>Datasets:</strong> Benchmark composed of datasets from 1. MS Macro, 2. ORCAS-1, 3. Natural Questions, 4. AllSouls, 5. LIMA, 6. Davinci-Debtate, 7. Perplexity.ai Discover, 8. ELI-5, 9. GPT-4 Generated Queries</li>
-              <li> <strong>Sources & Tags:</strong> Every query is provided with 5 cleaned relevant sources from Google Search Engine. Queries are tagged from 50 diverse tags to allow for targeted optimization and analysis.</li>
+              <li> <strong>Sources & Tags:</strong> Every query is provided with 5 cleaned relevant sources from Google Search Engine. Queries are tagged from more than 50 diverse tags to allow for targeted optimization and analysis.</li>
             </ul>
           </div>
       <!-- </div> -->
@@ -487,7 +505,7 @@
           <!-- <div class="box has-background-light"> -->
             <div class="content has-text-justified is-size-6">
               <p>
-                <strong>2. GEO-BENCH Leaderboard</strong>
+                <strong>2. <a href = 'https://huggingface.co/spaces/Pranjal2041/GEO-bench'>GEO-BENCH Leaderboard</a></strong>
               </p>
             <ul>
               <li> <strong>Public Leaderboard:</strong>We present a leaderboard for GEO-BENCH, which will be updated regularly with the latest results.
