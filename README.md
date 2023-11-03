@@ -1,8 +1,8 @@
 # GEO: Generative Engine Optimization
 
 <div class="badge-container">
-    <a href="https://pranjal2041.github.io/geo/" class="badge">
-        <img src="https://img.shields.io/website?down_message=down&style=for-the-badge&up_message=up&url=https%3A%2F%2Fpranjal2041.github.io/geo/" alt="Website">
+    <a href="https://pranjal2041.github.io/GEO/" class="badge">
+        <img src="https://img.shields.io/website?down_message=down&style=for-the-badge&up_message=up&url=https%3A%2F%2Fpranjal2041.github.io/GEO/" alt="Website">
     </a>
     <a href="https://huggingface.co/datasets/Pranjal2041/geo-bench" class="badge">
         <img src="https://img.shields.io/badge/Dataset-GEO-%2DBENCH-orange?style=for-the-badge" alt="Dataset">
