@@ -85,8 +85,8 @@ with gr.Blocks() as demo:
 </style>
 <h1 style="text-align: center;">GEO-Bench Leaderboard</h1>
 <div class="badge-container">
-    <a href="https://pranjal2041.github.io/geo/" class="badge">
-        <img src="https://img.shields.io/website?down_message=down&style=for-the-badge&up_message=up&url=https%3A%2F%2Fpranjal2041.github.io/geo/" alt="Website">
+    <a href="https://pranjal2041.github.io/GEO/" class="badge">
+        <img src="https://img.shields.io/website?down_message=down&style=for-the-badge&up_message=up&url=https%3A%2F%2Fpranjal2041.github.io/GEO/" alt="Website">
     </a>
     <a href="https://arxiv.org/abs/2310.18xxx" class="badge">
         <img src="https://img.shields.io/badge/arXiv-2310.18xxx-red.svg?style=for-the-badge" alt="Arxiv Paper">
