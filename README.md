@@ -39,7 +39,7 @@
       title={{GEO}: Generative Engine Optimization},
       author={Pranjal Aggarwal and Vishvak Murahari and Tanmay Rajpurohit and Ashwin Kalyan and Karthik R Narasimhan and Ameet Deshpande},
       year={2023},
-      eprint={2310.18xxx},
+      eprint={2311.18xxx},
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }
