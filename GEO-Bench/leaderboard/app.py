@@ -88,8 +88,8 @@ with gr.Blocks() as demo:
     <a href="https://pranjal2041.github.io/GEO/" class="badge">
         <img src="https://img.shields.io/website?down_message=down&style=for-the-badge&up_message=up&url=https%3A%2F%2Fpranjal2041.github.io/GEO/" alt="Website">
     </a>
-    <a href="https://arxiv.org/abs/2310.18xxx" class="badge">
-        <img src="https://img.shields.io/badge/arXiv-2310.18xxx-red.svg?style=for-the-badge" alt="Arxiv Paper">
+    <a href="https://arxiv.org/abs/2311.09735" class="badge">
+        <img src="https://img.shields.io/badge/arXiv-2311.09735-red.svg?style=for-the-badge" alt="Arxiv Paper">
     </a>
     <a href="https://huggingface.co/datasets/Pranjal2041/geo-bench" class="badge">
         <img src="https://img.shields.io/badge/Dataset-GEO-%2DBENCH-orange?style=for-the-badge" alt="Dataset">
@@ -101,7 +101,7 @@ with gr.Blocks() as demo:
 <p>
     - For benchmarking content optimization Methods for Generative Engines.<br>
     - GEO-Bench evaluates Methods for optimizing website content to improve visibility in generative engine responses. Benchmark contains 10K queries across 9 datasets covering diverse domains and intents.<br>
-    - Refer to GEO paper for more <a href="https://arxiv.org/abs/2310.18xxx">details</a>
+    - Refer to GEO paper for more <a href="https://arxiv.org/abs/2311.09735">details</a>
 </p>
 """
 
@@ -213,7 +213,7 @@ with gr.Blocks() as demo:
                 gr.Markdown(f"""
                 ## About GEO-bench
                 - GEO-bench is a benchmarking platform for content optimization Methods for generative engines.
-                - It is a part of the work released under [GEO](https://arxiv.org/abs/2310.18xxx)
+                - It is a part of the work released under [GEO](https://arxiv.org/abs/2311.09735)
                 - The benchmark comprises of 9 datasets, 7 of which were publicly available, while 2 have been released by us.
                 - Dataset can be downloaded from [here](huggingface.co/datasets/pranjal2041/geo-bench)""")
 

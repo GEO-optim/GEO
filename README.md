@@ -2,13 +2,13 @@
 
 <div class="badge-container">
     <a href="https://pranjal2041.github.io/GEO/" class="badge">
-        <img src="https://img.shields.io/website?down_message=down&style=for-the-badge&up_message=up&url=https%3A%2F%2Fpranjal2041.github.io/GEO/" alt="Website">
+        <img src="https://img.shields.io/website?down_message=down&style=for-the-badge&up_message=up&url=https%3A%2F%2Fgenerative-engines.com/" alt="Website">
     </a>
     <a href="https://huggingface.co/datasets/Pranjal2041/geo-bench" class="badge">
         <img src="https://img.shields.io/badge/Dataset-GEO-%2DBENCH-orange?style=for-the-badge" alt="Dataset">
     </a>
-    <a href="https://arxiv.org/abs/2310.18xxx" class="badge">
-        <img src="https://img.shields.io/badge/arXiv-2310.18xxx-red.svg?style=for-the-badge" alt="Arxiv Paper">
+    <a href="https://arxiv.org/abs/2311.09735" class="badge">
+        <img src="https://img.shields.io/badge/arXiv-2311.09735-red.svg?style=for-the-badge" alt="Arxiv Paper">
     </a>
     <a href="https://huggingface.co/spaces/Pranjal2041/GEO-bench" class="badge">
         <img src="https://img.shields.io/badge/Leaderboard-GEO-%2DBENCH-green?style=for-the-badge" alt="Code">
@@ -39,7 +39,7 @@
       title={{GEO}: Generative Engine Optimization},
       author={Pranjal Aggarwal and Vishvak Murahari and Tanmay Rajpurohit and Ashwin Kalyan and Karthik R Narasimhan and Ameet Deshpande},
       year={2023},
-      eprint={2311.18xxx},
+      eprint={2311},
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }
