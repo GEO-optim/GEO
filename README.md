@@ -23,7 +23,7 @@
 > The advent of large language models (LLMs) has ushered in a new paradigm of search engines that use generative models to gather and summarize information to answer user queries. These Generative Engines are reshaping search engines, promising personalized and precise responses to user queries. Yet, content creators grapple with a lack of control over how their content appears in these engines. Enter GENERATIVE ENGINE OPTIMIZATION (GEO), a solution that empowers content creators with a set of optimization strategies to enhance their online visibility. To evaluate GEO, we introduce GEO-BENCH, a collection of diverse user queries from different sources, each tagged with relevant categories and corresponding search resutls. Our experiments reveal that GEO can boost source visibility by up to 40%, offering practical insights for content creators. GEO heralds a new era in information discovery systems, promising profound implications for both search engine developers and content creators
 >
 
-![GEO-Teaser](docs/static/images/geo_teaser.png)
+![GEO-Teaser](docs/GEO/static/images/geo_teaser.png)
 
 
 ## How to Use
