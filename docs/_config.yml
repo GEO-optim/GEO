@@ -1,6 +1,6 @@
 title: GEO
 baseurl: "/GEO" # the subpath of your site
-url: "http://generative-engines.com" # the base hostname & protocol for your site
+url: "https://generative-engines.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
