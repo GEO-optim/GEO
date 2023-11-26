@@ -4,13 +4,13 @@
     <a href="https://generative-engines.com/GEO/" class="badge">
         <img src="https://img.shields.io/website?down_message=down&style=for-the-badge&up_message=up&url=https%3A%2F%2Fgenerative-engines.com/" alt="Website">
     </a>
-    <a href="https://huggingface.co/datasets/Pranjal2041/geo-bench" class="badge">
+    <a href="https://huggingface.co/datasets/GEO-optim/geo-bench" class="badge">
         <img src="https://img.shields.io/badge/Dataset-GEO-%2DBENCH-orange?style=for-the-badge" alt="Dataset">
     </a>
     <a href="https://arxiv.org/abs/2311.09735" class="badge">
         <img src="https://img.shields.io/badge/arXiv-2311.09735-red.svg?style=for-the-badge" alt="Arxiv Paper">
     </a>
-    <a href="https://huggingface.co/spaces/Pranjal2041/GEO-bench" class="badge">
+    <a href="https://huggingface.co/spaces/GEO-optim/geo-bench" class="badge">
         <img src="https://img.shields.io/badge/Leaderboard-GEO-%2DBENCH-green?style=for-the-badge" alt="Code">
     </a>
 </div>
@@ -26,21 +26,47 @@
 ![GEO-Teaser](docs/GEO/static/images/geo_teaser.png)
 
 
-## How to Use
+## Installation
 
-[Coming Soon]
+1. Create a conda environment: conda create -n geo python=3.9
+2. conda activate geo
+3. pip install -r requirements.txt
 
 
+
+## Run GEO
+
+To replicate results in paper, simply run:
+```python
+cd src
+python run_geo.py
+```
+
+## Define new GEO functions
+
+You can define custom GEO functions in `src/geo_functions.py`. Reference them in `src/run_geo.py` in `GEO_METHODS` variable, to evaluate on your new custom GEO function. 
+
+## GEO-BENCH
+
+GEO-bench is hosted on huggingface, can be downloaded using:
+```python
+from datasets import load_dataset
+load_dataset('GEO-optim/geo-bench')
+``` 
+
+## Leaderboard
+
+Leaderboard is available at: [https://huggingface.co/spaces/Pranjal2041/GEO-bench](leaderboard)
 
 ## Citation
 
 ```
-@misc{Aggarwal2023geo,
-      title={{GEO}: Generative Engine Optimization},
+@misc{aggarwal2023geo,
+      title={GEO: Generative Engine Optimization}, 
       author={Pranjal Aggarwal and Vishvak Murahari and Tanmay Rajpurohit and Ashwin Kalyan and Karthik R Narasimhan and Ameet Deshpande},
       year={2023},
-      eprint={2311},
+      eprint={2311.09735},
       archivePrefix={arXiv},
-      primaryClass={cs.CL}
+      primaryClass={cs.LG}
 }
 ```

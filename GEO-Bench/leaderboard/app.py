@@ -91,7 +91,7 @@ with gr.Blocks() as demo:
     <a href="https://arxiv.org/abs/2311.09735" class="badge">
         <img src="https://img.shields.io/badge/arXiv-2311.09735-red.svg?style=for-the-badge" alt="Arxiv Paper">
     </a>
-    <a href="https://huggingface.co/datasets/Pranjal2041/geo-bench" class="badge">
+    <a href="https://huggingface.co/datasets/GEO-optim/geo-bench" class="badge">
         <img src="https://img.shields.io/badge/Dataset-GEO-%2DBENCH-orange?style=for-the-badge" alt="Dataset">
     </a>
     <a href="https://github.com/Pranjal2041/GEO" class="badge">
@@ -215,7 +215,7 @@ with gr.Blocks() as demo:
                 - GEO-bench is a benchmarking platform for content optimization Methods for generative engines.
                 - It is a part of the work released under [GEO](https://arxiv.org/abs/2311.09735)
                 - The benchmark comprises of 9 datasets, 7 of which were publicly available, while 2 have been released by us.
-                - Dataset can be downloaded from [here](huggingface.co/datasets/pranjal2041/geo-bench)""")
+                - Dataset can be downloaded from [here](huggingface.co/datasets/GEO-optim/geo-bench)""")
 
             with gr.Row():
 
@@ -235,7 +235,7 @@ with gr.Blocks() as demo:
                 """)
 
                 # Benchmark Link:
-                # gr.Markdown(f"""### Benchmark Link: [GEO-bench](huggingface.co/datasets/pranjal2041/geo-bench)""")
+                # gr.Markdown(f"""### Benchmark Link: [GEO-bench](huggingface.co/datasets/GEO-optim/geo-bench)""")
 
                 # Info about tags and other statistics
                             
@@ -252,4 +252,4 @@ with gr.Blocks() as demo:
         search_bar.submit(fn=search_button_click, inputs=search_bar, outputs=data_overall)
 
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(share=True)

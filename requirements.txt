@@ -1,0 +1,6 @@
+tqdm
+openai
+beautifulsoup4
+readabilipy
+trafilatura
+datasets

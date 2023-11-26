@@ -104,7 +104,7 @@
 
               <!-- Icon for Dataset -->
               <span class="link-block">
-                <a href="https://huggingface.co/datasets/Pranjal2041/geo-bench"
+                <a href="https://huggingface.co/datasets/GEO-optim/geo-bench"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-database"></i>
@@ -124,7 +124,7 @@
               </span>
 
               <span class="link-block">
-                <a href="https://huggingface.co/spaces/Pranjal2041/GEO-bench"
+                <a href="https://huggingface.co/spaces/GEO-optim/geo-bench"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-trophy"></i>
@@ -155,7 +155,7 @@
 
 
 <h2 class="subtitle has-text-centered">
-  <span class="dnerf">TLDR:</span> <b>GEO</b> is a novel paradigm, that will help content creators optimize their content for <br> <i>next generation</i> of search engines augmented with Large Language Models. <br> For this we present several <b>optimization strategies</b> and a benchmark especially curated for such tasks.   
+  <span class="dnerf">TLDR:</span> <b>GEO</b> is a novel paradigm, that will help content creators optimize their content for <br> <i>next generation</i> of search engines augmented with Large Language Models. <br>   
 </h2>
 
 <section class="hero teaser">
@@ -175,23 +175,83 @@
 
 <section class="section">
   <div class="container is-max-desktop">
-    <!-- Abstract. -->
+    <!-- Introduction to Generative Engines. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Generative Engines</h2>
+        <div class="content has-text-justified is-size-4">
+          <p>
+            The advent of large language models (LLMs) has ushered in a new paradigm of search engines that use generative models to gather and summarize information to answer user queries. These <b>Generative Engines (GEs)</b>, have the potential to generate accurate and personalized responses, and are rapidly replacing traditional search engines and improving user utility.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Introduction to Generative Engines. -->
+
+
+    <!-- Contributions of GEO: Impression, Optimization, Benchmark. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">What is GEO about?</h2>
+        <div class="content has-text-justified is-size-4">
+          <img src="./static/images/explain_geo.jpg"><br>
+          <p>
+            However, Generative Engines present numerous challenges for content creators:
+            <ul>
+              <li><b>Ranking and Visibility:</b> Assessing site performance in traditional search engines is straightforward, with websites listed in ranked order with verbatim content. However, Generative Engines generate rich and structured responses, often embedding citations in a single block. This makes the notion of ranking and visibility highly nuanced and multi-faceted.</li>
+              <li><b>Optimization of Websites:</b> Unlike search engines, where significant research has been conducted on improving website visibility, it remains unclear how to optimize visibility in generative engine responses.</li>
+              <li><b>Black Box Nature:</b> Due to black box nature of the generative engines, content creators have little to no control over when and how their content is displayed, making it even difficult to optimize their content.
+              </li>
+              </li>
+            </ul>
+            To address these challenges we propose <b>Generative Engine Optimization (GEO)</b>, a novel paradigm designed to aid content creators in enhancing their content's visibility. We contribute various impression metrics, a benchmark for evaluation and suite of optimization strategies empowering creators to improve content visibility, on deployed commercial <b>Generative Engines</b>. 
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Contributions of GEO: Impression, Optimization, Benchmark. -->
+
+  </div>
+</section>
+
+
+<!-- <section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">What is GEO about?</h2>
+        <div class="content has-text-justified is-size-4">
+          <img src="./static/images/explain_geo.jpg"><br><br>
+          <p>
+            Ranking and Visibility Metrics are straightforward in traditional search engines, which list website sources in ranked order with verbatim content. However, Generative Engines generates rich and structured responses, and often embed citations in a single block interleaved with each other. This makes the notion of ranking and visibility highly nuanced and multi-faceted. Further, unlike search engines, where significant research has been conducted on improving website visibility, it remains unclear how to optimize visibility in generative engine responses. To address these challenges, our black-box optimization framework proposes a series of well-designed impression metrics that creators can use to <i>gauge</i> and <i>optimize</i>> their website's performance and also allows the creator to define their impression metrics.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- <section class="section">
+  <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified is-size-4">
-          <p>
+          <img src="./static/images/explain_geo.jpg"><br><br>
+          
+          <p> -->
             <!-- The advent of large language models (LLMs) has ushered in a new paradigm of search engines that use generative models to gather and summarize information to answer user queries. This emerging technology, which we formalize under the unified framework of <b>generative engines (GEs)</b>, has the potential to generate accurate and personalized responses, and is rapidly replacing traditional search engines like Google and Bing. While they considerably improve user utility and generative search engine traffic, it results in a huge challenge for the third stakeholder — website and content creators. Given the black-box and fast-moving nature of generative engines, content creators have little to no control over when and how their content is displayed. With generative engines here to stay, the right tools should be provided to ensure that creator economy is not severely disadvantaged. To address this, we introduce <b>GENERATIVE ENGINE OPTIMIZATION (GEO)</b>, a novel paradigm to aid content creators in improving their visibility. Through a suite of optimization strategies, we show creators can start optimizing their content right away with siginificant performance gains on actual deployed GEs. To help people evaluate different GEO methods, we introduce a benchmark: <b>GEO-BENCH</b> comprising diverse user queries across multiple domains, along with the corresponding sources required to answer these queries. Our work opens a new frontier in the field of information discovery systems, with profound implications for both developers of GEs and content creators. -->
-            The rise of <b>Generative Engines</b> (GE), a new kind of AI-powered search engine backed by LLMs, poses challenges for content creators. Unlike traditional search, generative engines synthesize customized answers by gathering and summarizing information. While beneficial for users, creators have little control over their content visibility. We introduce <b>Generative Engine Optimization (GEO)</b>, giving creators simple tools to enhance their content's visibility. To compare methods, we built GEO-Bench, comprising 10,000 diverse queries across topics and domains, each annotated with required sources. Through a suite of proposed optimization tested on deployed generative engine, we show creators can already siginificantly boost their visibility. Our work opens a new frontier in the field of information discovery systems, with profound implications for both developers of GEs and content creators.
+            <!-- The rise of <b>Generative Engines</b> (GE), a new kind of AI-powered search engine backed by LLMs, poses challenges for content creators. Unlike traditional search, generative engines synthesize customized answers by gathering and summarizing information. While beneficial for users, creators have little control over their content visibility. We introduce <b>Generative Engine Optimization (GEO)</b>, giving creators simple tools to enhance their content's visibility. To facilitate research and evaluation of methods, we built GEO-Bench, comprising 10,000 diverse queries across topics and domains, each annotated with required sources. Through a suite of proposed optimization tested on deployed generative engine, we show creators can already siginificantly boost their visibility. Our work opens a new frontier in the field of information discovery systems, with profound implications for both developers of GEs and content creators.
           </p>
 
         </div>
       </div>
-    </div>
+    </div> -->
     <!--/ Abstract. -->
 
-  </div>
-</section>
+  <!-- </div> -->
+<!-- </section> -->
+
 
 <section class="section" id="highlights">
   <div class="container is-max-desktop">
@@ -209,7 +269,7 @@
 
                         <li>📊 <strong>Comprehensive Benchmark:</strong> Introduces GEO-BENCH, a diverse benchmark of 10K queries for evaluation and corresponding leaderboard for up-to date comparison with best methods.</li>
 
-                        <li>⚡️ <strong>Significant Visibility Gains:</strong> Simple GEO strategies improve visibility by up to 40% in experiments.</li>
+                        <li>⚡️ <strong>Significant Visibility Gains:</strong> Simple GEO strategies improve visibility by up to 40% in experiments on deployed commercial generative engines.</li>
 
                   </ul>
                 </div>
@@ -273,7 +333,7 @@
         <!-- <div class="box has-background-light"> -->
           <div class="content has-text-justified is-size-6">
             <p>
-              <strong>1. <a href = 'https://huggingface.co/datasets/Pranjal2041/geo-bench'>GEO-BENCH</a></strong>
+              <strong>1. <a href = 'https://huggingface.co/datasets/GEO-optim/geo-bench'>GEO-BENCH</a></strong>
             </p>
             <!-- Create a list -->
             <ul>
@@ -290,7 +350,7 @@
           <!-- <div class="box has-background-light"> -->
             <div class="content has-text-justified is-size-6">
               <p>
-                <strong>2. <a href = 'https://huggingface.co/spaces/Pranjal2041/GEO-bench'>GEO-BENCH Leaderboard</a></strong>
+                <strong>2. <a href = 'https://huggingface.co/spaces/GEO-optim/geo-bench'>GEO-BENCH Leaderboard</a></strong>
               </p>
             <ul>
               <li> <strong>Public Leaderboard:</strong>We present a leaderboard for GEO-BENCH, which will be updated regularly with the latest results.
