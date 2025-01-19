@@ -1,0 +1,24 @@
+Evaluation Criteria:
+
+Follow-Up Likelihood (1-5) - the likelihood that a user, after reading the citation, would navigate to the website for more information. This dimension expects to see how much the source engages the user's interest and prompts them to seek more information.
+
+Evaluation Steps:
+
+1. Read the query and generated answer carefully, noting the major points raised in the answer.
+2. Read the sentences of Source [1] and assess how likely a user would be to navigate to the website for more information after reading the citation.
+3. Assign a score for Follow-Up Likelihood on a scale of 1 to 5, where 1 is the lowest and 5 is the highest based on the Evaluation Criteria.
+4. 1 indicates that the Source [1] is not cited or does not engage the user's interest. 5 indicates that the Source [1] is cited and highly likely to prompt the user to seek more information. A number in between indicates the degree of follow-up likelihood. For example, 3 would mean that Source [1] is cited, with some likelihood of prompting the user to seek more information, but it is not particularly engaging.
+
+Example:
+
+Input User Query:
+
+{query}
+
+Generated Answer:
+
+{answer}
+
+Evaluation Form (scores ONLY):
+
+- Follow-Up Likelihood for Source [1]: 

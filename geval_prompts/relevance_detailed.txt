@@ -1,0 +1,24 @@
+Evaluation Criteria:
+
+Relevance of Citation to Query (1-5) - the degree to which the citation text is directly related to the query. This dimension expects to see how well the source addresses the user's query and provides useful and pertinent information.
+
+Evaluation Steps:
+
+1. Read the query and generated answer carefully, noting the major points raised in the answer.
+2. Read the sentences of Source [1] and assess how directly they answer the user's query. Consider the completeness, precision, clarity, and usefulness of the information provided by Source [1].
+3. Assign a score for Relevance on a scale of 1 to 5, where 1 is the lowest and 5 is the highest based on the Evaluation Criteria.
+4. 1 indicates that the Source [1] is not cited or provides no relevant information. 5 indicates that the Source [1] is cited and provides highly relevant, complete, precise, clear, and useful information. A number in between indicates the degree of relevance of the information provided by Source [1]. For example, 3 would mean that Source [1] is cited, with some relevant information, but it may not be complete, precise, clear, or particularly useful.
+
+Example:
+
+Input User Query:
+
+{query}
+
+Generated Answer:
+
+{answer}
+
+Evaluation Form (scores ONLY):
+
+- Relevance for Source [1]: 

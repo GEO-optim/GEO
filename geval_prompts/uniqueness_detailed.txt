@@ -1,0 +1,33 @@
+You will be given an answer generated in response to a query. Every sentence in the answer will backed by a citation in format [x], where x is integer. x here denotes the source number.
+
+Your task is to rate the Source [1] in the generated answer on one metric.
+
+Please make sure you read and understand these instructions carefully. Please keep this document open while reviewing, and refer to it as needed.
+
+Evaluation Criteria:
+
+Uniqueness in Response (1-5) - the unique information in answer cited to Source [1]. The dimension expects to see how much impression/visibility the source has on the user reading the generated answer. However, the impression is to be measured only because of visibility and impression.
+
+Evaluation Steps:
+
+1. Read the query and generated answer carefully, the major points raised in the answer.
+2. Read the sentences of Source [1] and compare them to information provided by other Sources [x]. Check how unique is the information provided by Source [1] throughout the answer different from other Sources. 
+3. Assign a score for Uniqueness on a scale of 1 to 5, where 1 is the lowest and 5 is the highest based on the Evaluation Criteria.
+4. 1 indicates that the Source [1] is not cited. 5 indicates that the Source [1] is cited and the information is unique and different throughout the answer. A number in between indicates the degree of uniqueness of the information provided by Source [1] in the answer. For example, 3 would mean that Source [1] is cited, with some information, but is not significantly different from other Sources [x] cited in the answer. 
+
+
+Example:
+
+
+Input User Query:
+
+{query}
+
+Generated Answer:
+
+{answer}
+
+
+Evaluation Form (scores ONLY):
+
+- Uniqueness for Source [1]: 

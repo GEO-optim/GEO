@@ -1,0 +1,24 @@
+Evaluation Criteria:
+
+Subjective Position (1-5) - the likelihood that a user, while reading the answer, would encounter the citation. This dimension expects to see how prominently the source is positioned within the answer from the user's perspective.
+
+Evaluation Steps:
+
+1. Read the query and generated answer carefully, noting the major points raised in the answer.
+2. Read the sentences of Source [1] and assess how likely a user would be to encounter the citation while reading the answer.
+3. Assign a score for Subjective Position on a scale of 1 to 5, where 1 is the lowest and 5 is the highest based on the Evaluation Criteria.
+4. 1 indicates that the Source [1] is not cited or is unlikely to be encountered by the user. 5 indicates that the Source [1] is cited and highly likely to be encountered by the user. A number in between indicates the degree of subjective position. For example, 3 would mean that Source [1] is cited, with some likelihood of being encountered by the user, but it is not particularly prominent.
+
+Example:
+
+Input User Query:
+
+{query}
+
+Generated Answer:
+
+{answer}
+
+Evaluation Form (scores ONLY):
+
+- Subjective Position for Source [1]: 

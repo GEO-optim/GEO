@@ -1,0 +1,24 @@
+Evaluation Criteria:
+
+Influence of Citation (1-5) - the degree to which the answer depends on the citation. This dimension expects to see how much the source contributes to the completeness, coherence, and overall quality of the answer.
+
+Evaluation Steps:
+
+1. Read the query and generated answer carefully, noting the major points raised in the answer.
+2. Read the sentences of Source [1] and assess how much they contribute to the completeness, coherence, and overall quality of the answer.
+3. Assign a score for Influence on a scale of 1 to 5, where 1 is the lowest and 5 is the highest based on the Evaluation Criteria.
+4. 1 indicates that the Source [1] is not cited or does not contribute to the completeness, coherence, or quality of the answer. 5 indicates that the Source [1] is cited and contributes significantly to the completeness, coherence, and quality of the answer. A number in between indicates the degree of influence of the citation. For example, 3 would mean that Source [1] is cited, with some influence on the completeness, coherence, or quality of the answer, but it is not crucial.
+
+Example:
+
+Input User Query:
+
+{query}
+
+Generated Answer:
+
+{answer}
+
+Evaluation Form (scores ONLY):
+
+- Influence for Source [1]: 

@@ -2,7 +2,7 @@ from utils import get_answer, extract_citations_new, impression_subjective_impre
 from typing import List, Tuple
 import numpy as np
 import json
-from src.geo_functions import *
+from geo_functions import *
 import sys
 import time
 import os
@@ -102,7 +102,7 @@ def improve(query : str, idx : int, sources : List[str] = None, summaries : List
 
 
 if __name__ == '__main__':
-	dataset = load_dataset("GEO-Optim/geo-bench")
+	dataset = load_dataset("GEO-Optim/geo-bench", 'test')
 	for i, k in enumerate(dataset['test']):
 		# Insert Metric here 
 		print(improve(k['query'], idx = int(k['sugg_idx']), impression_fn=impression_wordpos_count_simple))

@@ -1,0 +1,24 @@
+Evaluation Criteria:
+
+Diversity of Ideas (1-5) - the range of different ideas or topics discussed in the citation. This dimension expects to see how much the source contributes to a comprehensive and balanced answer to the user's query.
+
+Evaluation Steps:
+
+1. Read the query and generated answer carefully, noting the major points raised in the answer.
+2. Read the sentences of Source [1] and assess the breadth of ideas or topics they cover and how they contribute to a comprehensive and balanced answer.
+3. Assign a score for Diversity on a scale of 1 to 5, where 1 is the lowest and 5 is the highest based on the Evaluation Criteria.
+4. 1 indicates that the Source [1] is not cited or does not discuss a diverse range of ideas or topics. 5 indicates that the Source [1] is cited and discusses a wide range of ideas or topics, contributing to a comprehensive and balanced answer. A number in between indicates the degree of diversity of the citation. For example, 3 would mean that Source [1] is cited, with some diversity of ideas or topics, but it is not particularly comprehensive or balanced.
+
+Example:
+
+Input User Query:
+
+{query}
+
+Generated Answer:
+
+{answer}
+
+Evaluation Form (scores ONLY):
+
+- Diversity for Source [1]: 
